@@ -1,2 +1,6 @@
 # kiree.github.io
-Github Pages site for yours and truly
+This is the source code for my personal Github page at [kiree.github.io](https://kiree.github.io/).
+
+## License
+
+[MIT](LICENSE)
