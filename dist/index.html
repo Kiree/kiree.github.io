@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Kiree's personal Github Page">
     <!-- Styles -->
-    <link rel="stylesheet" type="text/css" href="styles/app.css">
+    <link rel="stylesheet" type="text/css" href="../src/styles/app.css">
 </head>
 <body>
     <nav id="navbar">
@@ -18,6 +18,11 @@
             <li><a href="/blog">Blog</a></li>
         </ul>
     </nav>
+    <noscript id="no-js-trigger">
+        <div id="no-js-container">
+            <p>Hei kynyttäjä! Jotta saat mun saitista parhaan innovaatio pössiksen, niin Javascriptin tarvis olla päällä.</p>
+        </div>
+    </noscript>
     <div class="container" id="content">
         <div class="blurb" id="blurb">
             <h1>Well met!</h1>
@@ -33,5 +38,9 @@
             <li><a href="https://twitter.com/peheri">Twitter</a></li>
         </ul>
     </footer>
+
+    <!-- Webpack transpiles the app.js here -->
+    <script src="app.js"></script>
+    <!-- end webpack -->
 </body>
 </html>
