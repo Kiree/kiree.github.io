@@ -1,9 +1,13 @@
 const path = require('path');
+const webpack = require('webpack');
 
 module.exports = {
-    entry: './src/index.js',
+    entry: {
+        polyfill: './src/polyfill.js',
+        index: './src/app.js'
+    },
     output: {
-        filename: "app.js",
+        filename: "[name].app.js",
         path: path.resolve(__dirname, 'dist')
     }
 };

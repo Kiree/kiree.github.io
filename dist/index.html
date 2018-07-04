@@ -11,6 +11,7 @@
     <link rel="stylesheet" type="text/css" href="../src/styles/app.css">
 </head>
 <body>
+    <!-- Navbar -->
     <nav id="navbar">
         <ul id="navbar-items">
             <li><a href="/">Home</a></li>
@@ -18,11 +19,17 @@
             <li><a href="/blog">Blog</a></li>
         </ul>
     </nav>
+    <!-- end navbar -->
+
+    <!-- NoJS -->
     <noscript id="no-js-trigger">
         <div id="no-js-container">
             <p>Hei kynyttäjä! Jotta saat mun saitista parhaan innovaatio pössiksen, niin Javascriptin tarvis olla päällä.</p>
         </div>
     </noscript>
+    <!-- end NoJS -->
+
+    <!-- Content -->
     <div class="container" id="content">
         <div class="blurb" id="blurb">
             <h1>Well met!</h1>
@@ -31,6 +38,9 @@
             For more about those, I suggest you have a look at my <a href="https://github.com/Kiree/">Github</a>.</p>
         </div>
     </div>
+    <!-- end content -->
+
+    <!-- Footer -->
     <footer id="footer">
         <ul id="footer-items">
             <li><a href="https://github.com/Kiree/">Github</a></li>
@@ -38,9 +48,10 @@
             <li><a href="https://twitter.com/peheri">Twitter</a></li>
         </ul>
     </footer>
+    <!-- end footer -->
 
     <!-- Webpack transpiles the app.js here -->
-    <script src="app.js"></script>
+    <script id="app-js" src="index.app.js"></script>
     <!-- end webpack -->
 </body>
 </html>
