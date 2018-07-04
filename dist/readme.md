@@ -1,2 +1,0 @@
-#dist
-The compiled code.
